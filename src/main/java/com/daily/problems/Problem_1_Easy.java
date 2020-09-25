@@ -1,4 +1,4 @@
-package problems;
+package com.daily.problems;
 
 /*
 This problem was recently asked by Google.

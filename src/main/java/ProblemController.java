@@ -1,5 +1,5 @@
-import com.sun.xml.internal.bind.api.impl.NameConverter;
-import problems.MaxSumSubArray;
+import com.daily.problems.MaxSumSubArray;
+import com.daily.problems.Problem_1_Easy;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ public class ProblemController {
         Scanner scanner = new Scanner(System.in);
         while(true) {
             System.out.println("Greetings!  Which problem would you like to test today?  Or, press Q to quit");
-            System.out.println("1 - Max Sum of a Sub-Array");
+            System.out.println("100 - Max Sum of a Sub-Array");
+            System.out.println("1 - Operands of a Sum Exist in List");
             String input = scanner.next();
             if(!determineProblem(input)) {
                 System.out.println("Program ending.  Good-bye.");
@@ -25,6 +26,9 @@ public class ProblemController {
 
         switch (input) {
             case "1" :
+                Problem_1_Easy.testSum();
+                break;
+            case "100" :
                 MaxSumSubArray.findMaxSumInteractive();
                 break;
             case "Q" :
