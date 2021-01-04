@@ -1,5 +1,6 @@
 import com.daily.problems.MaxSumSubArray;
 import com.daily.problems.Problem_1_Easy;
+import com.daily.problems.Problem_2_Hard;
 
 import java.util.Scanner;
 
@@ -13,6 +14,7 @@ public class ProblemController {
             System.out.println("Greetings!  Which problem would you like to test today?  Or, press Q to quit");
             System.out.println("100 - Max Sum of a Sub-Array");
             System.out.println("1 - Operands of a Sum Exist in List");
+            System.out.println("2 - Array of Products");
             String input = scanner.next();
             if(!determineProblem(input)) {
                 System.out.println("Program ending.  Good-bye.");
@@ -31,6 +33,8 @@ public class ProblemController {
             case "100" :
                 MaxSumSubArray.findMaxSumInteractive();
                 break;
+            case "2" :
+                Problem_2_Hard.testProduct();
             case "Q" :
                 return false;
             case "q" :
