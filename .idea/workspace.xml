@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66649d5-5865-45ec-9023-83e913857c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daily/problems/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProblemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/MaxSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daily/problems/MaxSumSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/Problem_1_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_1_Easy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/daily/problems/MaxSumSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/daily/problems/MaxSumSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/daily/problems/Problem_1_Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/daily/problems/Problem_1_Easy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/daily/problems/TowerOfHanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/daily/problems/TowerOfHanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/daily/problems/Problem_1_EasyTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,18 +21,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="daily-coding-problems" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="daily-coding-problems" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="daily-coding-problems" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProblemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -41,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/MaxSumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="450">
               <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
@@ -52,9 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -62,23 +92,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_1_Easy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="885">
+              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_2_Hard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1020">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -95,12 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
+            <state relative-caret-position="1785">
               <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-              <folding>
-                <element signature="e#5027#5028#0" expanded="true" />
-                <element signature="e#5098#5099#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +139,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,7 +152,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/problems/MaxSumSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/TowerOfHanoi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProblemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/Problem_1_EasyTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/problems/Problem_1_Easy.java" />
@@ -131,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_1_EasyTest.java" />
         <option value="$PROJECT_DIR$/src/test/Problem_1_EasyTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProblemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_2_Hard.java" />
       </list>
     </option>
   </component>
@@ -144,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,23 +207,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="daily-coding-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daily-coding-problems" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="daily-coding-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daily-coding-problems" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,13 +220,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601012809026" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609797232680" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -237,13 +255,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Problem_1_EasyTest">
+  <component name="RunManager" selected="Gradle.daily-coding-problems [clean]">
     <configuration name="ProblemController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProblemController" />
       <module name="daily-coding-problems.daily-coding-problems.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="daily-coding-problems [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Problem_1_EasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="daily-coding-problems.daily-coding-problems.test" />
@@ -275,22 +312,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_1_EasyTest.testGivenExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="daily-coding-problems.daily-coding-problems.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.daily.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.daily.problems" />
-      <option name="MAIN_CLASS_NAME" value="com.daily.problems.Problem_1_EasyTest" />
-      <option name="METHOD_NAME" value="testGivenExample" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Problem_1_EasyTest.testShouldBeFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="daily-coding-problems.daily-coding-problems.test" />
       <extension name="coverage">
@@ -309,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.daily-coding-problems [clean]" />
+        <item itemvalue="Application.ProblemController" />
         <item itemvalue="JUnit.Problem_1_EasyTest" />
         <item itemvalue="JUnit.Problem_1_EasyTest.testShouldBeFalse" />
         <item itemvalue="JUnit.Problem_1_EasyTest.testAllSame" />
-        <item itemvalue="JUnit.Problem_1_EasyTest.testGivenExample" />
-        <item itemvalue="Application.ProblemController" />
       </list>
     </recent_temporary>
   </component>
@@ -339,36 +360,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Problem_1_EasyTest_testGivenExample - 2020.09.24 at 22h 35m 39s.xml">
-      <configuration name="Problem_1_EasyTest.testGivenExample" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem_1_EasyTest_testShouldBeFalse - 2020.09.24 at 22h 36m 52s.xml">
-      <configuration name="Problem_1_EasyTest.testShouldBeFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem_1_EasyTest_testShouldBeFalse - 2020.09.24 at 22h 37m 26s.xml">
-      <configuration name="Problem_1_EasyTest.testShouldBeFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem_1_EasyTest_testAllSame - 2020.09.24 at 22h 39m 07s.xml">
-      <configuration name="Problem_1_EasyTest.testAllSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem_1_EasyTest_testAllSame - 2020.09.24 at 22h 41m 06s.xml">
-      <configuration name="Problem_1_EasyTest.testAllSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Problem_1_EasyTest - 2020.09.24 at 22h 45m 37s.xml">
-      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Problem_1_EasyTest_testShouldBeFalse - 2020.09.24 at 22h 45m 47s.xml">
       <configuration name="Problem_1_EasyTest.testShouldBeFalse" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Problem_1_EasyTest - 2020.09.24 at 22h 45m 51s.xml">
       <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 15h 59m 51s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 00m 23s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 05m 17s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 05m 46s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 06m 36s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 09m 20s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 13m 35s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem_1_EasyTest - 2020.09.27 at 16h 21m 04s.xml">
+      <configuration name="Problem_1_EasyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1680" height="944" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26312578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15628816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +403,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35915494" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42370892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +418,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -433,9 +459,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/test/problems/Problem_1_EasyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/MaxSumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="450">
           <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
@@ -444,9 +471,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -459,46 +490,29 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
+        <state relative-caret-position="1785">
           <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProblemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/problems/Problem_1_EasyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_1_Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="885">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/daily/problems/Problem_1_EasyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daily/problems/Problem_2_Hard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -542,7 +556,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Coretto-11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -559,7 +573,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
