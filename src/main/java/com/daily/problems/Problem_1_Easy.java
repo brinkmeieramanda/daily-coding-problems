@@ -19,7 +19,7 @@ public class Problem_1_Easy {
 
     private static boolean continueFlag = false;
 
-    public static void testSum() {
+    public static void check() {
         continueFlag = true;
         Scanner scanner = new Scanner(System.in);
         String input;
@@ -30,11 +30,11 @@ public class Problem_1_Easy {
             System.out.println("Enter a list of comma-separated integers: ");
             input = scanner.nextLine();
             String[] tokens = input.split(",");
-            System.out.println("Enter one inter: ");
+            System.out.println("Enter one integer: ");
             testSum = Integer.parseInt(scanner.nextLine());
             Integer[] integers = convertToInteger(tokens);
-            boolean isASum = testSum(integers, testSum);
-            System.out.println("Two integers in your list add to " + testSum + ":" + isASum);
+            boolean isASum = check(integers, testSum);
+            System.out.println("Two integers in your list add to " + testSum + ": " + isASum);
             System.out.println("Continue? Press Q to quit");
             String con = scanner.nextLine();
             if (con.equalsIgnoreCase("Q")) {
@@ -53,8 +53,9 @@ public class Problem_1_Easy {
         return result;
     }
 
-    public static boolean testSum(Integer[] list, int testSum) {
+    public static boolean check(Integer[] list, int testSum) {
 
+        // TODO: don't use a set since we lose duplicates.  use sorted map instead.
         Set<Integer> set = new HashSet<>();
         set.addAll(Arrays.asList(list));
         for(Integer i : list) {
