@@ -10,16 +10,15 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
  */
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Problem_1_Easy {
 
-    private static boolean continueFlag = false;
+    private boolean continueFlag = false;
 
-    public static void check() {
+    private static SortedMap<Integer, Integer> map = new TreeMap<>();
+
+    public void check() {
         continueFlag = true;
         Scanner scanner = new Scanner(System.in);
         String input;
@@ -33,7 +32,8 @@ public class Problem_1_Easy {
             System.out.println("Enter one integer: ");
             testSum = Integer.parseInt(scanner.nextLine());
             Integer[] integers = convertToInteger(tokens);
-            boolean isASum = check(integers, testSum);
+            createTreeMap(integers);
+            boolean isASum = check(testSum);
             System.out.println("Two integers in your list add to " + testSum + ": " + isASum);
             System.out.println("Continue? Press Q to quit");
             String con = scanner.nextLine();
@@ -53,13 +53,32 @@ public class Problem_1_Easy {
         return result;
     }
 
-    public static boolean check(Integer[] list, int testSum) {
-
-        // TODO: don't use a set since we lose duplicates.  use sorted map instead.
-        Set<Integer> set = new HashSet<>();
-        set.addAll(Arrays.asList(list));
+    private static void createTreeMap(Integer[] list) {
+        map.clear();
         for(Integer i : list) {
-            if(set.contains(testSum - i)) {
+            if(map.containsKey(i)) {
+                Integer count = map.get(i);
+                count++;
+                map.put(i, count);
+            } else {
+                map.put(i, 1);
+            }
+        }
+    }
+
+    public static boolean check(int testSum) {
+        // iterate over treemap:
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            Integer i = entry.getKey();
+            Integer missing = testSum - i;
+            if(missing.equals(i)) {
+                // see if there are two copies of this in the map
+                if(map.get(i) > 1) {
+                    return true;
+                }
+                return false;
+            }
+            if (map.containsKey(missing)) {
                 return true;
             }
         }
